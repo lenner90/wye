@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>Wye app icon — Junction</title>
+  <rect x="100" y="100" width="824" height="824" rx="184" fill="#24484D"/>
+  <g transform="translate(215.04 215.04) scale(32.995555556)">
+    <path fill="#D6E9DD" d="M7.75 16.5V9.7C7.75 8.6 7.36 8 6.57 7.42L2 4.15L3.47 2.12L8.04 5.43C9.59 6.56 10.25 7.9 10.25 9.7V16.5Z"/>
+    <path fill="#77B7A4" d="M10.08 5.6L14.53 2.12L16 4.15L11.6 7.62C11.31 6.83 10.78 6.13 10.08 5.6Z"/>
+  </g>
+</svg>
