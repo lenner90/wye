@@ -21,11 +21,14 @@ If you use one AI tool for both work and personal projects, changing accounts us
 
 **Requirements:** macOS 13 (Ventura) or later, on Apple Silicon or Intel.
 
-### From the disk image
+There is no ready-made download. You build Wye yourself from the source code, which takes about a minute (see [Build from source](#build-from-source) below).
 
-1. Get `Wye.dmg` (from the project's releases, or build it yourself, see below).
-2. Open it and drag **Wye** onto the **Applications** shortcut.
-3. Open Wye from Applications.
+### From a disk image
+
+To install Wye on another Mac, build `dist/Wye.dmg` with `./scripts/build-app.sh --dmg` and copy it over. Then:
+
+1. Open `Wye.dmg` and drag **Wye** onto the **Applications** shortcut.
+2. Open Wye from Applications.
 
 Wye is not signed with an Apple Developer ID, so the first time you open it macOS may say it "cannot be opened because the developer cannot be verified". To open it anyway:
 
@@ -39,7 +42,7 @@ You only need to do this once.
 You need Xcode or the Swift 5.9+ command line tools.
 
 ```bash
-git clone <this repository>
+git clone https://github.com/lenner90/wye.git
 cd wye
 ```
 
